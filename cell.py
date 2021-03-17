@@ -2,9 +2,10 @@ inport random
 def inpos(x):
   def pos():
     lis = ["x         ", " x        ", "  x       ", "   x      ", "     x    ", "     x    ", "      x   ", "       x  ", "        x ", "         x"]
-    ranpos = random.choice(lis)
-    print(ranpos)
-  pos(x)
+    a = random.choice(lis)
+    print(a + a)
+  pos()
+  print(x)
 def cellmake(x, y, z, e, o):
   cell = x
   pos1 = y
